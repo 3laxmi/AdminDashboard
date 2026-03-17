@@ -1,0 +1,11 @@
+ /* @import "tailwindcss";
+
+ @theme {
+  --color-*: initial;
+}
+ */
+
+
+ @import "tailwindcss" layer(base);
+
+@custom-variant dark (&:where(.dark, .dark *));
